@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.active{
+  background-color:#1abc9c !important;
+  color: white;
+  border-radius: 5px ;
+padding: 5px;
+transition:  3s ;
+}
+.navstyle{
+  background-color: #2c3e50!important;
+font-size: larger!important;
+
+}
+.home{
+background-color: #1abc9c;
+height: 700px;
+}
+.imgHome{
+  width: 300px;
+  height: 300px;
+}
+.text-home{
+  font-size: xx-large;
+  font-weight: 900;
+}
+.iconhome::after{
+ content: '';
+ display: inline-block;
+ vertical-align: middle;
+ margin-left: .8em;
+ height: 4px;
+ width: 100px;
+ background-color: white;
+}
+.iconhome::before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .8em;
+  height: 4px;
+  width: 100px;
+  background-color: white;
+ }
+ .text-porto{
+  font-size: xx-large;
+  font-weight: 900;
+  color: #2c3e50;
+ }
+ .iconporto::after{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: .8em;
+  height: 4px;
+  width: 100px;
+  background-color: #2c3e50;
+ }
+ .iconporto::before{
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: .8em;
+  height: 4px;
+  width: 100px;
+  background-color: #2c3e50;
+ }
+ .portocoloricon{
+  color: #2c3e50;
+ }
+ .modal{
+  --bs-modal-bg: none;
+  --bs-modal-border-color: none;
+  --bs-modal-width:700px
+}
+.layer{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  background-color:#1abc9cf2;
+ cursor: pointer;
+}
+.layer:hover{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  background-color: #1abc9cf2;
+
+ 
+}
+.portfolioicone{
+margin: auto;
+font-size: 100px;
+text-align: center;
+  color:white;
+}
+.navbar-brand{
+  font-size: 
+    35px
+  ;
+  font-weight: 800;
+}
+.footer{
+  background-color: #2c3e50;
+}
+.footer2{
+  background-color: #1a252f;
+}
+.contbtn{
+  width: 150px;
+  background-color: #1abc9c!important;
+  border: none!important;
+}
